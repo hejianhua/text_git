@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  
+  <context-param>
+  	<param-name>url</param-name>
+  	<param-value>www.baidu.com</param-value>
+  </context-param>
+ 
+  
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HttpRequest</servlet-name>
+    <servlet-class>com.study.http.HttpRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommonServlet</servlet-name>
+    <servlet-class>com.study.http.CommonServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImgRequest</servlet-name>
+    <servlet-class>com.study.http.ImgRequest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletConfigDemo1</servlet-name>
+    <servlet-class>com.study.servletConfig.ServletConfigDemo1</servlet-class>
+    <init-param>
+    	<param-name>name</param-name>
+    	<param-value>abc</param-value>	
+    </init-param>
+    <init-param>
+    	<param-name>password</param-name>
+	   	<param-value>123</param-value> 
+    </init-param>
+    <init-param>
+        <param-name>charset</param-name>
+        <param-value>UTF-8</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletConfigDemo2</servlet-name>
+    <servlet-class>com.study.servletConfig.ServletConfigDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContextDemo1</servlet-name>
+    <servlet-class>com.study.servletConfig.ServletContextDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContextParam</servlet-name>
+    <servlet-class>com.study.servletConfig.ServletContextParam</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContextForward</servlet-name>
+    <servlet-class>com.study.servletConfig.ServletContextForward</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServelrProperties</servlet-name>
+    <servlet-class>com.study.servletConfig.ServelrProperties</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletPrintDemo1</servlet-name>
+    <servlet-class>com.study.servletPrint.ServletPrintDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletImg</servlet-name>
+    <servlet-class>com.study.servletPrint.ServletImg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletRandomImg</servlet-name>
+    <servlet-class>com.study.servletPrint.ServletRandomImg</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletRequestDemo1</servlet-name>
+    <servlet-class>com.study.ServletRequest.ServletRequestDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletRequestDemo2</servlet-name>
+    <servlet-class>com.study.servletRequest.ServletRequestDemo2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletSessionDemo1</servlet-name>
+    <servlet-class>com.study.servletSession.ServletSessionDemo1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletSessionForwad</servlet-name>
+    <servlet-class>com.study.servletSession.ServletSessionForwad</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletCookie</servlet-name>
+    <servlet-class>com.study.servletSession.ServletCookie</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>HttpRequest</servlet-name>
+    <url-pattern>/HttpRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommonServlet</servlet-name>
+    <url-pattern>/CommonServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImgRequest</servlet-name>
+    <url-pattern>/ImgRequest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletConfigDemo1</servlet-name>
+    <url-pattern>/ServletConfigDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletConfigDemo2</servlet-name>
+    <url-pattern>/ServletConfigDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContextDemo1</servlet-name>
+    <url-pattern>/ServletContextDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContextParam</servlet-name>
+    <url-pattern>/ServletContextParam</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContextForward</servlet-name>
+    <url-pattern>/ServletContextForward</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServelrProperties</servlet-name>
+    <url-pattern>/ServelrProperties</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletPrintDemo1</servlet-name>
+    <url-pattern>/ServletPrintDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletImg</servlet-name>
+    <url-pattern>/ServletImg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRandomImg</servlet-name>
+    <url-pattern>/ServletRandomImg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequestDemo1</servlet-name>
+    <url-pattern>/ServletRequestDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletRequestDemo2</servlet-name>
+    <url-pattern>/ServletRequestDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletSessionDemo1</servlet-name>
+    <url-pattern>/ServletSessionDemo1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletSessionForwad</servlet-name>
+    <url-pattern>/ServletSessionForwad</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletCookie</servlet-name>
+    <url-pattern>/ServletCookie</url-pattern>
+  </servlet-mapping>
+
+</web-app>
